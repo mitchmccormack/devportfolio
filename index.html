@@ -5,9 +5,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Mitch McCormack is a software developer based in Vancouver, Canada">
     <title>Mitch McCormack</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -25,13 +26,13 @@
         </div>
         <ul id="menu" class="shadow">
             <li>
-                <a href="#education">Education</a>
-            </li>
-            <li>
                 <a href="#experience">Experience</a>
             </li>
             <li>
                 <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
             </li>
             <li>
                 <a href="#skills">Skills</a>
@@ -59,50 +60,48 @@
     </div>
     <!-- End #lead -->
 
-    
-    <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>Simon Fraser University</h3>
-            <span class="education-date">Graduation: December 2019</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <ul>
-            <li>
-                Dean's List: Fall 2018
-            </li>
-            <li>
-                GPA: 3.0 
-            </li>
-        </ul>
-        </div>
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
-
-
-    <div id="experience" class="background-alt">
+    <div id="experience">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
             <div data-date="January 2018 – August 2018">
                 <h3>Global Relay</h3>
                 <h4>QA Analyst</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
+                <ul>
+                    <li>
+                        Developed, maintained and executed test cases
+                    </li>
+                    <li>
+                        iOS and Android automation testing using XCTest and Expresso frameworks
+                    </li>
+                    <li>
+                        Participated in code reviews and test strategy planning
+                    </li>
+                    <li>
+                        Performed functional, regression and integration testing
+                    </li>
+                </ul>
             </div>
 
             <div data-date="January 2019 – August 2019">
                 <h3>Celayix Software</h3>
                 <h4>Web Application Developer</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
+                <ul>
+                    <li>
+                        Programmed features for Celayix's single page web and mobile applications using React.js
+                    </li>
+                    <li>
+                        Developed backend services using serverless architectures from AWS including: Lambda, S3, SNS, SQS and DynamoDB
+                    </li>
+                    <!-- <li>
+                        Point 3 
+                    </li> -->
+                </ul>
             </div>
         </div>
     </div>
     <!-- End #experience -->
 
-    <div id="projects">
+    <div id="projects" class="background-alt">
         <h2 class="heading">Projects</h2>
         <div class="container">
             <div class="row">
@@ -114,7 +113,7 @@
                     <div class="project-info">
                         <h3>Financial Calculators</h3>
                         <p>
-                                An intuitive and modern web application for several common financial calucations.
+                            An intuitive and modern web application for several common financial calucations.
                         </p>
                         <a href="https://financial-calculators.herokuapp.com/">View Project</a>
                     </div>
@@ -130,7 +129,9 @@
                     <div class="project-info">
                         <h3>Spanish Verb App</h3>
                         <p>
-                            The Spanish Verb App helps users practice their written verb conjugation skills. This web app combines my passion for technology and the Spanish language. The idea came about through my still ongoing journey to learn Spanish. 
+                            The Spanish Verb App helps users practice their written verb conjugation skills. This web
+                            app combines my passion for technology and the Spanish language. The idea came about through
+                            my still ongoing journey to learn Spanish.
                         </p>
                         <a href="https://spanish-verb-app.herokuapp.com/">View Project</a>
                     </div>
@@ -141,6 +142,26 @@
         </div>
     </div>
     <!-- End #projects -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Simon Fraser University</h3>
+            <span class="education-date">Graduation: December 2019</span>
+            <h4>Bachelor of Science in Computer Science</h4>
+            <ul>
+                <li>
+                    Dean's List: Fall 2018
+                </li>
+                <li>
+                    GPA: 3.0
+                </li>
+            </ul>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
 
     <div id="skills" class="background-alt">
         <h2 class="heading">Skills</h2>
@@ -166,7 +187,7 @@
                 <button type="submit">Send</button>
             </form>
         </div> -->
-        <!-- End #contact-form -->
+    <!-- End #contact-form -->
     <!-- </div> -->
     <!-- End #contact -->
 
@@ -186,13 +207,16 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/mitchmccormack" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/mitchmccormack" target="_blank"><i class="fa fa-github"
+                                    aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/mitchell-mccormack/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/mitchell-mccormack/" target="_blank"><i
+                                    class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/mitchmccormack" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="https://twitter.com/mitchmccormack" target="_blank"><i class="fa fa-twitter"
+                                    aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
